@@ -1,0 +1,10 @@
+[package]
+name = "wsl-exec"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+[dependencies]
+anyhow = "1.0.81"
+thiserror = "1.0.58"
+[build-dependencies]
+windres = "0.2.2"
