@@ -1,4 +1,4 @@
 use windres::Build;
-fn main(){
+fn main() {
     Build::new().compile("icon.rc").unwrap();
 }
